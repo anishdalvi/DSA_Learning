@@ -37,9 +37,8 @@ class Solve_MergeSortedArray {
         int[] nums2 = {3,6,8,9,11};
         int m = 5;
         int n = 5;
-        merge(nums1, m, nums2, n);
-
         
+        merge(nums1, m, nums2, n);
 
     };
 
