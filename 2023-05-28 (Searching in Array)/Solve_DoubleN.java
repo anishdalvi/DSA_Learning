@@ -7,8 +7,11 @@ public class Solve_DoubleN {
               
                 if(i!=j){
                     
-                    if(arr[i] == 2 * arr[j])
-                    return true;    
+                    if(arr[i] == 2 * arr[j]){
+                        System.out.println("x: "+ i + " 2x: "+ j);
+                        System.out.println("x: "+ arr[i] + " 2x: "+ arr[j]);
+                        return true;    
+                    }
                 }
             }
         }
