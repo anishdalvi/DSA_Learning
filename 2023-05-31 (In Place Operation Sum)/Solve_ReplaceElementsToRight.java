@@ -1,4 +1,4 @@
-public class ReplaceElementsToRight {
+public class Solve_ReplaceElementsToRight {
 
     static int largest(int[] array,int length){
 
