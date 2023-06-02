@@ -13,7 +13,8 @@ public class SortingArray{
     static int heightChecker(int[] array){
 
         
-        int[] expected = array;
+        //int[] expected = array;
+        int[] expected = Arrays.copyOf(array,array.length);
         int count = 0;
         
         for(int i = 0; i < expected.length; i++){
